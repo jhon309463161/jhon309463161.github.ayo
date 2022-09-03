@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.index img{
+	width: 260px;
+}
+.galery img{
+	padding: 5px;
+	width: 200px;
+}
+nav{
+overflow: auto;
+background-color:#000;
+}
+nav ul  {display: inline-flex;
+	list-style: none;
+	background-color: black;
+	color: white;
+	padding: 20PX;
+}
+
+nav li:hover {
+	text-align: right;
+    display: right;
+	background-color: white;
+	padding: 20px;
+	margin: 10px;
+ }
+nav .galery{
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	color: blue;
+	text-decoration: none;
+	padding: 20px;
+	width: 150px;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+h1 p {
+
+	text-transform: lowercase;
+}
